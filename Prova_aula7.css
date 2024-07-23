@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(124, 29, 72);
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    gap: 3px;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-left: 10px;
+}
+#servico, #valor_conta, #botao{
+    color: rgba(24, 23, 23, 0.988);
+    border-radius: 7px;
+    border: 2px, solid, black;
+    height: 30px;
+    width: 170px;
+    text-align: center;
+    font-weight: bold;
+}
+#botao{
+    height: 50px;
+    text-align: center;
+}
